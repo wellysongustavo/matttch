@@ -4,10 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
-
+    <title>Recuperação</title>
     <link rel="stylesheet" href="../static/css/style.css">
-
 
      <!-- Reference to Google Fonts-->
      <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,26 +16,21 @@
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
 
+
+
 </head>
-<body class="register_page">
+
+<body id="page">
 
     <script src="../static/js/script.js" type="text/javascript"></script>
 
 
-    <h2 id="welcome">Seja bem vindo, User!</h2>
-
-    <h3 style="color:#FD7101">Precisamos fazer algumas perguntas para que possamos te conhecer <br> melhor e conectar
-        você aos melhores tatuadores possíveis!
-    </h3>
+    <h2 style="color:#FD7101">Esqueceu sua senha?</h2>
     <br>
-
-    <h3 style="color: #F4F4F4;">Deseja reponder esse questionário agora?</h3>
-    <button id="yes_btn" onclick="goTrial()">Sim</button>
-    <button id="not_btn" onclick="backHome()">Não</button>
-
-    <img src="../static/images/Logo.png" alt="btt_logo" id="btt_logo">
-
-    <h4 id="btt_name">MATTTCH</h4>
-
+    <h2>Informe seu email para que possamos te enviar uma mensagem de recuperação!</h2>
+    <input type="email" placeholder="E-mail de recuperação">
+    <button>Enviar</button>
+    <button style="background-color: transparent;" onclick="backHome()">Voltar</button>
+    
 </body>
 </html>

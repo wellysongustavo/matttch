@@ -3,39 +3,38 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size:  cover;
+    background-size: cover;
     background-color: dimgray;
-}
 
+  
+}
 
 .container{
 
     width: 400px;
+    display: flex;
+    flex-direction: column;
     margin: auto;
-    align-content: center;
     
 }
 
-.logo {
-	width:230px;
-  	display: center;
-  	margin-bot: 0px;
+img{
+    opacity: 0.9;
 }
 
 h1{
+
     font-family: 'Bungee Outline', cursive;
     color: #FFFF; 
     margin: auto;
     opacity: 1;
-    font-size: 60px;
-    text-align: center;
+    font-size: 100px;
 }
 
 h2{
 
     color: #E5E5E5;
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    margin-left: 50px;
 }
 
 h3{
@@ -47,55 +46,47 @@ h3{
 }
 
 input{
-    height: 40px;
-    width: 250px;
+    margin: auto;
+    height: 65px;
+    width: 560;
     border-radius: 5px;
     padding: 0 20px;
-    margin-left: 50px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 1.2rem;
     margin-bottom: 15px;
     background-color: #E5E5E5;
     opacity: 0.8;
     border-color: #FD7101;
-    justify-content: center;
-    align-items: center;
+    
 }
 
-
-
 button{
-    justify-content: flex;
+    padding: 0 20px;
+    justify-content: center;
     margin: auto;
     border-radius: 5px;
     color: #FFFF;
     background-color: #FD7101;
     cursor: pointer;
-    width: 120px;
-    height: 40px;
+    width: 155px;
+    height: 65px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 1.2rem;
     opacity: 0.8;;
 }
 
-.center{
-    display:         flex;
-    display: -webkit-flex;
-    justify-content: center;
-    align-items: center;
-}
-
 a{
-    margin-top: 2px;
-    margin-bottom: 30px;
+    margin: auto;
+    margin-bottom: 15px;
     color: #FD7101;
     font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding: 0 20px;
     font-size: larger;
-    margin-left: 50px;
+    
 }
 
 .register_page{
-    display: inline;
+    display: flex;
     margin: auto;
     flex-direction: column;
 }
@@ -107,13 +98,12 @@ a{
 }
 
 #yes_btn{
-	margin-right: 5px;
-	margin-left: 80px; 
-}
 
+    flex-direction: row;
+}
 #not_btn{
-   background-color: transparent;
-   
+    background-color: transparent;
+   margin-top: 15px;
 }
 
 #page{
@@ -140,7 +130,6 @@ a{
     bottom: 0px;
     left: 0px;
     display: inline;
-    margin-left:10px;
 }
 
 ul{
