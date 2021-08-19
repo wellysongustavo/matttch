@@ -1,6 +1,6 @@
 
 function myFunction() {
-    location.href = "register.html";
+    location.href = "welcome.html";
 }
 
 function backHome(){
@@ -14,3 +14,7 @@ function backIndex(){
 function goTrial(){
     location.href = "trial.html";
 }
+
+$(document).ready(function(){
+    $('[name=telefone]').mask('(00) 0000-0000');
+});

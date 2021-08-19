@@ -1,43 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
+</html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
+    <title>MATTTCH - Cadastre-se!</title>
+    <link rel="shortcut icon" href="../static/images/favicon(1).ico" />
 
+    <!-- Reference to Google Fonts-->
     <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
 
-
-     <!-- Reference to Google Fonts-->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap" rel="stylesheet">
-     
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
-
+   
 </head>
-<body class="register_page">
+<body>
 
     <script src="../static/js/script.js" type="text/javascript"></script>
 
-
-    <h2 id="welcome">Seja bem vindo, User!</h2>
-
-    <h3 style="color:#FD7101">Precisamos fazer algumas perguntas para que possamos te conhecer <br> melhor e conectar
-        você aos melhores tatuadores possíveis!
-    </h3>
-    <br>
-
-    <h3 style="color: #F4F4F4;">Deseja reponder esse questionário agora?</h3>
-    <button id="yes_btn" onclick="goTrial()">Sim</button>
-    <button id="not_btn" onclick="backHome()">Não</button>
-
-    <img src="../static/images/Logo.png" alt="btt_logo" id="btt_logo">
-
-    <h4 id="btt_name">MATTTCH</h4>
-
+    <div class="container">
+        <h1 style="font-size: 20px;">MATTTCH</h1>
+        <div class="center">
+        	<h2>Cadastre-se agora para ter acesso a uma plataforma<br>
+        	&nbsp;&nbsp;&nbsp;completa e unificada no universo das tatuagens!</h2>
+        </div>
+        <div class="form_index">
+        	<input type="text" placeholder="Nome" required>
+        	<input type="number" min="1" placeholder="Idade" required>
+			<select name="perfil" id="perfil">
+				<option>Selecione seu perfil:</option>
+				<option value="C">Cliente</option>
+		  		<option value="T">Tatuador(a)</option>
+			</select>
+			<select name="sexo" id="sexo">
+				<option >Selecione seu sexo:</option>
+				<option value="F">Feminino</option>
+		  		<option value="M">Masculino</option>
+			</select>	        
+			<input type="email" placeholder="Email" required>
+	        <input type="password" placeholder="Senha" style="margin-bot: 0;"required>
+	        <br>
+	        <button style="float: left; background-color: gray;"  onclick="backIndex()">Voltar</button>
+	        <button style="float: right; margin-right: 5px;" id="join_btn" onclick="myFunction()">Cadastrar</button>
+	        
+        </div>
+    </div>
+    
 </body>
-</html>
+
+
+
+
+<footer></footer>
