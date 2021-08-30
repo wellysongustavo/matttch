@@ -75,7 +75,7 @@ a {
 h1 {
     font-family: 'Bungee Outline', cursive;
     color: #FFFF; 
-    margin: 5px 5px;
+    margin: 0px 5px;
     opacity: 1;
     font-size: 60px;
     text-align: center;
@@ -109,7 +109,7 @@ li {
 li a {
     display: block;
     color: white;
-    padding: 14px 16px;
+    padding: 10px 10px;
     text-decoration: none;
 }
 
