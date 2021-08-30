@@ -10,3 +10,6 @@ function backHome(){
 function goTrial(){
     location.href = "trial.html";
 }
+function tatuador(){
+    location.href = "tatuador.html"
+}
