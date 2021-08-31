@@ -180,9 +180,13 @@ li a:hover {
     padding: 0%;
     color:#FD7101;
 }
-.img_select{
-
+.img_select img{
     display: flex;
+    margin: auto;
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+    border:#FD7101 solid;
 
 }
 
@@ -193,17 +197,29 @@ li a:hover {
     border-color:#FD7101;
     border:#E5E5E5 solid;
 }
-
-.gallery_img1{
-    width: 30px;
-    height: 30px;
-    flex-wrap: nowrap;
+#stud2{
+    border-radius: 15px;
+    border-color:#FD7101;
+    border:#E5E5E5 solid;
+    width: 39%;
+    height: 30%;
+    margin-left: 15px;
 }
-.prof img{
 
+
+.prof img{
+    
     border-radius: 80%;
     width: 150px;
     height: 150px;
     border: #FD7101 solid;
     margin-left: 18px;
+}
+.explore img{
+    
+    border:#E5E5E5 solid;
+    border-radius: 15px;
+    width: 240px;
+    height: 240px;
+    margin-left: 15px;      
 }
