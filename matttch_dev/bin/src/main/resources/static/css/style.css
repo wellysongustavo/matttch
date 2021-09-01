@@ -241,8 +241,16 @@ li a:hover {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    border-radius: 15px;
+    border: #FD7101 solid;
+    opacity: 0.8;
 }
 .description i{
     color: #FD7101;
 }
 
+.job img{
+    border: #E5E5E5 solid;
+    border-radius: 15px;
+    height: 240px;
+}
