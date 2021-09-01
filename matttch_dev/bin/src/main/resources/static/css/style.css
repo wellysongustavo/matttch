@@ -215,11 +215,34 @@ li a:hover {
     border: #FD7101 solid;
     margin-left: 18px;
 }
+
+.float-child{
+    float: left;
+    padding: 20px;
+}
+.float-child h2{
+    margin-left: 17px;
+}
+
 .explore img{
     
     border:#E5E5E5 solid;
     border-radius: 15px;
-    width: 240px;
+    width: 260px;
     height: 240px;
-    margin-left: 15px;      
+    margin-left: 10px;      
 }
+.description p {
+    font-family:  'Yanone Kaffeesatz', sans-serif;
+    color: #E5E5E5;
+    font-size: 24px;
+}
+.perfil-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.description i{
+    color: #FD7101;
+}
+
